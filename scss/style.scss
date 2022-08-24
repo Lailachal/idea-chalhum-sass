@@ -1,0 +1,74 @@
+//variables
+$color-principal: rgb(196, 84, 121);
+$color-secundario: rgb(214, 214, 102);
+$color-detalles: rgb(224, 73, 224);
+
+
+body{
+    
+    background-image: url(../img/rosa.jpg);
+    font-style: normal;
+    font-size: medium;
+    text-align: center;
+    nav{
+        background-color: $color-principal;
+        display: grid;
+        list-style: none;
+        
+        ul{
+            display:block;
+            list-style: none;
+            li{ font-style: italic;
+                color: whitesmoke;
+                font-size: x-large;                
+                display:inline-block;
+                width: 10%;
+                padding: 5px 10px;
+                
+                text-align: center;
+                justify-content: left;
+
+            }
+
+        }
+    }
+    
+    
+    header{
+        h1{
+            font-size: x-large;
+            color: $color-principal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+    }
+    }
+    nav{
+        div{
+            a{
+                font-size: large;
+                color: $color-detalles;
+                background-color: $color-secundario;
+                
+            }
+        }
+    }
+
+    p{
+        margin: 100px;
+        padding: 150px;
+        background-color: $color-secundario;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        color: blanchedalmond;        
+        border-style: solid;
+    }
+    footer{
+        h2{
+            text-align: center;
+            background-color: $color-secundario;
+        }
+    }
+
+    

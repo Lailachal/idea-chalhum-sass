@@ -1,0 +1,45 @@
+body {
+  background-image: url(../img/rosa.jpg);
+  font-style: normal;
+  font-size: medium;
+  text-align: center; }
+  body nav {
+    background-color: #c45479;
+    display: grid;
+    list-style: none; }
+    body nav ul {
+      display: block;
+      list-style: none; }
+      body nav ul li {
+        font-style: italic;
+        color: whitesmoke;
+        font-size: x-large;
+        display: inline-block;
+        width: 10%;
+        padding: 5px 10px;
+        text-align: center;
+        justify-content: left; }
+  body header h1 {
+    font-size: x-large;
+    color: #c45479;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; }
+
+nav div a {
+  font-size: large;
+  color: #e049e0;
+  background-color: #d6d666; }
+
+p {
+  margin: 100px;
+  padding: 150px;
+  background-color: #d6d666;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: blanchedalmond;
+  border-style: solid; }
+
+footer h2 {
+  text-align: center;
+  background-color: #d6d666; }
